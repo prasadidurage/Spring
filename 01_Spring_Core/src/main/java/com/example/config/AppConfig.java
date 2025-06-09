@@ -7,6 +7,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 
 
-@ComponentScan(basePackages = "com.example.bean")
+@ComponentScan(basePackages = "com.example.bean") // bean hadanna oni than specific karagnnwa
 public class AppConfig {
 }
