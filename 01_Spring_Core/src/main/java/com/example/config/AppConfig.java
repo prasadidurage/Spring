@@ -14,6 +14,7 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = "com.example.bean") // bean hadanna oni than specific karagnnwa
 //@ComponentScan(basePackageClasses = TestBean1.class)// specific class ekakata vitharak  object create karai
 public class AppConfig {
+    // pitathin ganna class ekka bean eka hadanna oni thana specify kara ganna thama @Bean eka use karanne
     @Bean("san")
     MyConnection getConnection() {
         return new MyConnection();
