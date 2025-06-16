@@ -37,5 +37,9 @@ public class AppIniziliazer {
 //        System.out.println(myConnection1);
 //
 //        context.registerShutdownHook();
+
+
+        System.out.println("------------------------------------");
+        MyConnection myConnection = context.getBean(MyConnection.class);
     }
 }
