@@ -12,6 +12,8 @@ public class AppIniziliazer {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
         context.register(AppConfig.class);
         context.refresh();
+        //jvm ek stop wenakota contex ek close kara gannawa
+        context.registerShutdownHook();
 
         //================api hadapu class ekaka csope eka wenas karanawa==========
 
@@ -26,14 +28,14 @@ public class AppIniziliazer {
 
         //===========api pitathin gena bean ekaka scope define karanawa============
 
-        System.out.println("------------------------------------");
-        MyConnection myConnection = context.getBean(MyConnection.class);
-        System.out.println(myConnection);
-
-        System.out.println("------------------------------------");
-        MyConnection myConnection1 = context.getBean(MyConnection.class);
-        System.out.println(myConnection1);
-
-        context.registerShutdownHook();
+//        System.out.println("------------------------------------");
+//        MyConnection myConnection = context.getBean(MyConnection.class);
+//        System.out.println(myConnection);
+//
+//        System.out.println("------------------------------------");
+//        MyConnection myConnection1 = context.getBean(MyConnection.class);
+//        System.out.println(myConnection1);
+//
+//        context.registerShutdownHook();
     }
 }

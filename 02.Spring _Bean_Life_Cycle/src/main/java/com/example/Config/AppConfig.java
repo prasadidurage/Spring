@@ -16,9 +16,9 @@ public class AppConfig {
 
     @Bean
    // @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE) mekama tama pahala wenne annotation ekt assing krn vif=dh vitharai wenasa
-    @Scope("prototype")
-    MyConnection getMyConnection() {
-        return new MyConnection();
-    }
+//    @Scope("prototype")
+   MyConnection getMyConnection() {
+       return new MyConnection();
+  }
 
 }
