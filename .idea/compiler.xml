@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Spring_fullmode_vs_lightMoade" />
         <module name="01_Spring_Core" />
         <module name="SpringBeanLifeCycle" />
         <module name="DIwithSpring" />
