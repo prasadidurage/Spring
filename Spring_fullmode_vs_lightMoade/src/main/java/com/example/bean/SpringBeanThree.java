@@ -12,8 +12,8 @@ public class SpringBeanThree {
 
 
 
-    @Bean
-    public SpringBeanOne springBeanOne() {
+    //@Bean
+   // public SpringBeanOne springBeanOne() {
 //        SpringBeanOne springBeanOne = new SpringBeanOne();
         // spring wala api new key word ek dala hadanne nh
 
@@ -21,17 +21,17 @@ public class SpringBeanThree {
 //        SpringBeanOne springBeanOne = new SpringBeanOne();
 //        SpringBeanTwo springBeanTwo = new SpringBeanTwo();
 
-        SpringBeanTwo springBeanOne =  springBeanTwo();
-        SpringBeanTwo springBeanTwo = springBeanTwo();
+//        SpringBeanTwo springBeanOne =  springBeanTwo();
+//        SpringBeanTwo springBeanTwo = springBeanTwo();
+//
+//        System.out.println(springBeanOne);
+//        System.out.println(springBeanTwo);
+//        return new SpringBeanOne();
 
-        System.out.println(springBeanOne);
-        System.out.println(springBeanTwo);
-        return new SpringBeanOne();
+  //  }
 
-    }
-
-    @Bean
-    public SpringBeanTwo springBeanTwo() {
-        return new SpringBeanTwo();
-    }
+//    @Bean
+//    public SpringBeanTwo springBeanTwo() {
+//        return new SpringBeanTwo();
+//    }
 }
