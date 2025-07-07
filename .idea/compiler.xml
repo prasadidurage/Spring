@@ -2,16 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="05_Configarations" />
         <module name="RuntimeValuInjection" />
-        <module name="01_Spring_Core" />
         <module name="Practice_01" />
+        <module name="08_Spring_WebMVC" />
         <module name="SpringBeanLifeCycle" />
         <module name="DIwithSpring" />
+        <module name="05_Configarations" />
+        <module name="07_Spring_Env" />
+        <module name="09_RESTController" />
+        <module name="01_Spring_Core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
