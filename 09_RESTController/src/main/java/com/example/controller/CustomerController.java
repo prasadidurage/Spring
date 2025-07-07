@@ -64,7 +64,7 @@ public class CustomerController {
         System.out.println(customerDTO.getCID());
         System.out.println(customerDTO.getCName());
         System.out.println(customerDTO.getCAddress());
-        return "success";
+        return "successfull";
 
     }
 
