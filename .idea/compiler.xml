@@ -17,9 +17,23 @@
         <module name="09_RESTController" />
         <module name="01_Spring_Core" />
       </profile>
+      <profile name="Annotation profile for 11_Back_End" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="Back_End" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Spring_fullmode_vs_lightMoade" target="21" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Back_End" options="-parameters" />
+    </option>
   </component>
 </project>
